@@ -1,0 +1,174 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2c2c2c; /* Tono gris oscuro */
+    color: #ffffff; /* Fuente blanca */
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center; /* Centra los enlaces de navegación */
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #ddd; /* Un tono más claro para el hover */
+}
+
+section {
+    padding: 20px; /* Mantén un buen relleno interno */
+    margin: 10px auto; /* Centra las secciones horizontalmente */
+    max-width: 800px; /* Limita el ancho máximo de las secciones */
+    background: #3b3b3b; /* Fondo de las secciones un poco más claro que el fondo principal */
+    border-radius: 5px; /* Reduce el radio de los bordes */
+}
+
+section a {
+    color: #ffa500; /* Color de los enlaces normal */
+    text-decoration: none;
+}
+
+section a:hover {
+    color: #ffd700; /* Color de los enlaces en hover */
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centra el contenido horizontalmente */
+    gap: 20px; /* Espacio entre el texto y la imagen */
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan en pantallas más pequeñas */
+}
+
+.about-text {
+    flex: 1 1 300px; /* Ocupa un espacio flexible pero mínimo de 300px */
+    max-width: 400px; /* Limita el ancho máximo del texto */
+    text-align: left; /* Alinea el texto a la izquierda */
+}
+
+.about-image {
+    flex: 1 1 200px; /* Ocupa un espacio flexible pero mínimo de 200px */
+    text-align: center; /* Centra la imagen horizontalmente */
+}
+
+.about-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px; /* Reducir el radio de los bordes de la imagen */
+}
+
+
+#technologies {
+    background: #3b3b3b;
+    padding: 20px;
+    margin: 10px auto;
+    max-width: 800px;
+    border-radius: 5px;
+}
+
+.technologies-container {
+    display: flex;
+    flex-direction: column; /* Columna principal */
+    gap: 20px;
+}
+
+.row {
+    display: flex;
+    gap: 20px;
+}
+
+.front-end, .python, .other, .databases {
+    flex: 1; /* Toma el mismo ancho */
+}
+
+.front-end ul, .python ul, .other ul, .databases ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.front-end h3, .python h3, .other h3, .databases h3 {
+    color: #ffa500;
+}
+
+#projects {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.project {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.project img {
+    max-width: 200px;
+    margin-right: 20px;
+}
+
+.project-info {
+    flex: 1;
+}
+
+.project-info h3 {
+    margin-top: 0;
+}
+
+.project-info p {
+    margin-bottom: 10px;
+}
+
+.project-info a {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.project-info a:hover {
+    background-color: #0056b3;
+}
+
+#contact {
+    margin-bottom: 60px; /* Ajusta este valor según sea necesario */
+}
+
+
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
