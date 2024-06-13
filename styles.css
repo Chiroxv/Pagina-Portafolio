@@ -1,3 +1,4 @@
+/* Estilos generales */
 html {
     scroll-behavior: smooth;
 }
@@ -76,8 +77,9 @@ section a:hover {
     max-width: 100%;
     height: auto;
     border-radius: 5px; /* Reducir el radio de los bordes de la imagen */
+    border-radius: 5px; /* Reducir el radio de los bordes de la imagen */
+    border: 3px solid #ffa500;
 }
-
 
 #technologies {
     background: #3b3b3b;
@@ -120,11 +122,17 @@ section a:hover {
     margin-bottom: 20px;
     display: flex;
     align-items: center;
+    background: #2b2b2b;
+    padding: 10px;
+    border-radius: 5px;
 }
 
 .project img {
-    max-width: 200px;
+    width: 100px;  /* Ajusta el tamaño a tus necesidades */
+    height: 100px; /* Ajusta el tamaño a tus necesidades */
+    object-fit: cover; /* Mantener la proporción de la imagen */
     margin-right: 20px;
+    border-radius: 5px;
 }
 
 .project-info {
@@ -133,10 +141,12 @@ section a:hover {
 
 .project-info h3 {
     margin-top: 0;
+    color: #ffa500;
 }
 
 .project-info p {
     margin-bottom: 10px;
+    color: #fff;
 }
 
 .project-info a {
@@ -153,10 +163,36 @@ section a:hover {
 }
 
 #contact {
-    margin-bottom: 60px; /* Ajusta este valor según sea necesario */
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #2b2b2b;
+    border-radius: 5px;
+    color: #fff;
 }
 
+.contact-link {
+    display: inline-block;
+    padding: 8px 12px;
+    background-color: #007bff; /* Color de fondo gris oscuro */
+    color: #fff; /* Color de texto azul */
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
 
+.contact-link:hover {
+    background-color: #777; /* Color de fondo gris más claro al pasar el ratón */
+}
+
+#contact a {
+    color: #ffffff; /* Color azul para los enlaces */
+    text-decoration: none;
+}
+
+#contact a:hover {
+    color: #0056b3; /* Color azul más oscuro al pasar el ratón */
+}
 
 footer {
     background: #333;
